@@ -58,6 +58,10 @@ ol[role="list"] {
 	list-style: none;
 }
 
+ul, ol {
+	list-style: none;
+}
+
 img,
 picture,
 video,
@@ -89,6 +93,10 @@ a:not([class]) {
     
 	color: currentColor;
 	text-decoration-skip-ink: auto;
+}
+
+a {
+	text-decoration: none;
 }
 
 :target {
