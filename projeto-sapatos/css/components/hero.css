@@ -4,7 +4,7 @@
     height: 31rem;
     position: relative;
     background-size: cover;
-    border-radius: 1.3rem;
+    border-radius: 2.5rem;
 } 
 
 .hero-overlay {
@@ -23,8 +23,9 @@
     text-align: center;
 }
 
-.hero.buttons {
+.hero-buttons {
     display: flex;
+    padding: 0 0.5rem;
     gap: 1rem;
     
 }

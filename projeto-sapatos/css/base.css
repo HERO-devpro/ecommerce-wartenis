@@ -37,3 +37,7 @@ main {
     border: #6329a2;
 }
 
+.btn-outline:hover {
+    border: 2px solid #6329a2;
+}
+
