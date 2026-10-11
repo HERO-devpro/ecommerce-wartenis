@@ -68,3 +68,14 @@
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 780px) {
+
+    .categories-section {
+        gap: 2rem;
+    }
+    .category-card {
+        width: 100%;
+
+    }
+}

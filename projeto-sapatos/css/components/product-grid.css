@@ -81,3 +81,41 @@
     display: flex;
     gap: 0.75rem
 }
+
+@media (max-width: 768px) {
+    .grid-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: "top1 top1"
+                             "bottomL bottomL"
+                             "midL bottomR"
+                             "midL midR"
+                             "top2 top2";
+        max-width: 100%;
+        gap: 0.825rem
+    }
+
+    .top1 {
+        min-height: 31.25rem;
+    }
+
+    .top2 {
+        min-height: 11.875rem
+    }
+
+    .midL {
+        min-width: 23.125rem;
+    }
+
+    .midR {
+        min-height: 11.875rem;
+    }
+
+    .bottomR {
+        min-height: 11.875rem;
+    }
+
+    .bottomL {
+        min-height: 11.875rem
+    }
+}
